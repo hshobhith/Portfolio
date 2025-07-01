@@ -6,9 +6,22 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import backgroundVideo from './images/5747525-uhd_2160_3240_24fps.mp4'; // <-- your background video
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react'; 
+
 
 function App() {
+    
+  useEffect(() => {
+  AOS.init({
+    duration: 1000, 
+    once: false,    
+  });
+}, []);
+
   return (
+
     <div className="relative min-h-screen text-white">
       {/* Background Video */}
       <video

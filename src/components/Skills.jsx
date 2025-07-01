@@ -11,7 +11,7 @@ export default function Skills() {
           {skills.map((skill) => (
                 <div
                     key={skill}
-                    className="bg-indigo-100 text-indigo-700 text-center py-4 rounded-xl font-semibold shadow"
+                    className="bg-indigo-100 text-indigo-700 text-center py-4 rounded-xl font-semibold shadow" data-aos="zoom-in"
                 >
                     {skill}
                 </div>

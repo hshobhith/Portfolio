@@ -21,7 +21,7 @@ export default function Contact() {
 
   return (
     <section id="contact" className="py-20">
-      <div className="max-w-xl mx-auto px-4 text-center">
+      <div className="max-w-xl mx-auto px-4 text-center" data-aos="flip-left">
         <h2 className="text-3xl font-bold mb-6 text-indigo-600">📬 Let's Talk</h2>
         <p className="mb-6 text-white-100">
           Whether it's a collaboration, project inquiry, or just to say hi — I’d love to hear from you!

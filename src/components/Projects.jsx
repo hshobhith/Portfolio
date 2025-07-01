@@ -2,9 +2,16 @@ import img1 from "../images/Screenshot 2025-06-30 215144.png";
 import img2 from "../images/Screenshot 2025-06-30 215252.png";
 import img3 from "../images/Screenshot 2025-06-30 215314.png";
 import img4 from "../images/Screenshot 2025-06-30 215347.png";
+import img5 from "../images/Screenshot 2025-07-01 210053.png";
 
 export default function Projects() {
   const projects = [
+        {
+      title: "Padpu farms Website",
+      description: "Responsive Full-stack website for Padpu farms.",
+      image: img5, 
+      link: "https://padpufarms.vercel.app/",
+    },
     {
       title: "Architecture Portfolio Website",
       description: "Responsive architecture portfolio website built with React and Tailwind CSS.",
@@ -35,11 +42,11 @@ export default function Projects() {
     <section id="projects" className="py-20">
       <div className="max-w-6xl mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-10 text-indigo-600">Projects</h2>
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3" >
           {projects.map((project) => (
             <div
               key={project.title}
-              className="bg-white p-4 rounded-xl shadow hover:shadow-lg transition"
+              className="bg-white p-4 rounded-xl shadow hover:shadow-lg transition" data-aos="zoom-in"
             >
               <img
                 src={project.image}
