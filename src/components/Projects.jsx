@@ -37,7 +37,7 @@ export default function Projects() {
       title: "Ydemy E-learning Platform",
       description: "Professional E-learning Platform bulid on meran full-stack.",
       image: img6,
-      link: "https://ydemy-clone-api.vercel.app",
+      link: "https://ydemy-clone-frontend.vercel.app",
     },
     {
       title: "Architecture Website",
