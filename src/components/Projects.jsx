@@ -30,6 +30,12 @@ export default function Projects() {
       image: img2,
       link: "https://scihubss.com",
     },
+      {
+      title: "Ydemy E-learning Platform",
+      description: "Professional E-learning Platform bulid on meran full-stack.",
+      image: img2,
+      link: "https://scihubss.com",
+    },
     {
       title: "Architecture Website",
       description: "Architecture Website with a modern design.",
