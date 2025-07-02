@@ -3,6 +3,9 @@ import img2 from "../images/Screenshot 2025-06-30 215252.png";
 import img3 from "../images/Screenshot 2025-06-30 215314.png";
 import img4 from "../images/Screenshot 2025-06-30 215347.png";
 import img5 from "../images/Screenshot 2025-07-01 210053.png";
+import img6 from "../images/Screenshot 2025-05-05 120225.png";
+
+
 
 export default function Projects() {
   const projects = [
@@ -33,8 +36,8 @@ export default function Projects() {
       {
       title: "Ydemy E-learning Platform",
       description: "Professional E-learning Platform bulid on meran full-stack.",
-      image: img2,
-      link: "https://scihubss.com",
+      image: img6,
+      link: "https://ydemy-clone-api.vercel.app",
     },
     {
       title: "Architecture Website",
